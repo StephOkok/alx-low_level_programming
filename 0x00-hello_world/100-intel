@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -fno-verbose-asm $CFILE 
+gcc -S -masm=intel $CFILE > ${CFILE::-2}".s"
