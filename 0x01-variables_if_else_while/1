@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+* main - entry to the code
+* main - print Caps and small letters
+* Return: 0 meaning success
+*/
+int main(void)
+{
+	char alpha;
+	for (alpha = 'a'; alpha = 'A'; alpha <= 'z'; alpha <= 'Z' alpha++)
+	{
+		putchar (alpha);
+	}
+putchar ('\n');
+return (0);
+}
