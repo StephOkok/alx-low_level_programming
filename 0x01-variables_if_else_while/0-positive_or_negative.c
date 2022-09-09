@@ -4,11 +4,9 @@
 /* more headers goes there */
 
 /**
- * main - void returns no value
- * rand - select random number
- * main(void) - returns no value
+ * main - entry to the code
  * int n - declare a variable n
- * return value: 0
+ * Return: 0 meaning success
  */
 int main(void)
 {
