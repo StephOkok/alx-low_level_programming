@@ -3,7 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - void returns no value
+ * rand - select random number
+ * main(void) - returns no value
+ * int n - declare a variable n
+ * return value: 0
+ */
 int main(void)
 {
 int n;
