@@ -1,16 +1,22 @@
 #include "main.h"
 /**
- * _islower - prints if the letter is lowercase
- * main - entry
- * Returm: 0 when successful
+ * print_sign - function to print sign of positive or negative
+ * @n - interger fro argument
+ * Return: 0 always success
  */
-
-int _islower(int c)
+int print_sign(int n)
 {
-	if (c >= 'a' && c <= 'z')
+	if (n > 0)
 	{
+		putchar('+');
 		return(1);
 	}
+	else if (n < 0)
+	{
+		putchar('-');
+		return(-1);
+	}
 	else
-		return(0);
+		putchar('0');
+	return(0);
 }
