@@ -2,7 +2,7 @@
 /**
  * _islower - prints if the letter is lowercase
  * @c: int for argument
- * Returm: 0 when successful
+ * Return: 0 when successful
  */
 
 int _islower(int c)
