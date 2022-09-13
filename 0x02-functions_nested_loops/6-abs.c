@@ -1,16 +1,16 @@
 #include "main.h"
 /**
  * _abs - function that prints absolute integer
- * @int: print absolute vatue
+ * @c: print absolute vatue
  * Return: 0 always when successful
  */
 
-int _abs(int y)
+int _abs(int c)
 {
-	if (y > 0 || y -- 0)
+	if (c > 0 || c -- 0)
 	{
-		return (y);
+		return (c);
 	}
 	else
-		return (y * -1);
+		return (c * -1);
 }
