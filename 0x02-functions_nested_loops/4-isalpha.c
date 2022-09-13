@@ -4,7 +4,7 @@
  * _isalpha - function to check if it's alphabetic
  * Return : 0 always successful
  * @c : integer for the argument
- * _isalpha type : int
+ * _isalpha return int
  */
 
 int _isalpha(int c)
