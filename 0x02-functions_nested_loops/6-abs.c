@@ -5,8 +5,9 @@
  * Return: 0 always when successful
  */
 
-int _abs(int c)
+int _abs(int)
 {
+	int c;
 	if (c > 0 || c -- 0)
 	{
 		return (c);
