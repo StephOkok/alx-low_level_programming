@@ -2,8 +2,8 @@
 
 /**
  * main - entrypoint of the code
- * description : printing alphabet letters a-z
- * Return : Always 0 if successful
+ * description: printing alphabet letters
+ * Return: Always 0 if successful
  */
 
 void print_alphabet(void)
