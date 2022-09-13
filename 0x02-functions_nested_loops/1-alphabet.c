@@ -2,21 +2,16 @@
 
 /**
  * main - entrypoint of the code
- * description : printing _putchar
+ * description : printing alphabet letters a-z
  * Return : Always 0 if successful
  */
 
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
-    print_alphabet();
-
-    int x;
-    for(int x = 'a'; x<='z'; x++);
-    {
-    putchar(x);
-    }
-    putchar('\n');
-    return(0);
+	char x;
+	for(x = 'a'; x <= 'z'; x++)
+	{
+            _putchar(x);
+	}
+_putchar('\n');
 }
