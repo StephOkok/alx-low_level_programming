@@ -3,17 +3,18 @@
 /**
  * _isalpha - function to check if it's alphabetic
  * Return : 0 always successful
+ * @c : integer for the argument
  */
 
 int _isalpha(int c)
 {
-	if(c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
-		return(1);
+		return (1);
 	}
-	else if(c >= 'A' && c <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
-		return(1);
+		return (1);
 	}
 	else
 		return (0);
