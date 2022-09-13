@@ -1,19 +1,21 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
- * Description:prints base 10 numbers
- * Return: Always 0 (success)
+ * main - entrypoint of the code
+ * description : printing _putchar
+ * Return : Always 0 if successful
  */
- 
+
 int main(void)
 {
-	char* x = "_";
-	char y[8] = "putchar";
-	{
-		putchar(*x);
-		putchar(y[8]);
-	}
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
