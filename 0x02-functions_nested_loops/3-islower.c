@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - prints if the letter is lowercase
- * main - entry
+ * @c: int for argument
  * Returm: 0 when successful
  */
 
@@ -13,9 +13,4 @@ int _islower(int c)
 	}
 	else
 		return(0);
-}
-int main(void)
-{
-	_islower('int c');
-	return(0);
 }
