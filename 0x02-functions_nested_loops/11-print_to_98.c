@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * print_to_98 - fuction to print from an integer to 98
  * @n: interger which is the first count
