@@ -4,6 +4,7 @@
  * print_times_table - func to print times table with
  * parameter
  * Return: return nothing
+ * @n: integer for the arguement
  */
 void print_times_table(int n)
 {
@@ -15,7 +16,7 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 		}
-		for (mult = 1; mult <=n; mult++)
+		for (mult = 1; mult <= n; mult++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -34,8 +35,8 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 				_putchar((result / 10) + '0');
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
 
