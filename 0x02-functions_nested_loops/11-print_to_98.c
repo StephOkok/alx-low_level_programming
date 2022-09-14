@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * print_to_98 - fuction to print from an integer to 98
+ * print_to_98 - fuction to print all natural numbers to 98, in order
  * @n: interger which is the first count
  * Return: 0 always success
  */
