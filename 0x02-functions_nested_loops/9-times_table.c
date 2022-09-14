@@ -10,11 +10,10 @@ void times_table(void)
 	for (number = 0; number <= 9; number++)
 	{
 		_putchar('0');
-		for (multiply = 1; multiply <=9; multiply++)
+		for (multiply = 1; multiply <= 9; multiply++)
 		{
 			_putchar(',');
 			_putchar(' ');
-			
 			product = number * multiply;
 			if (product <= 9)
 				_putchar(' ');
