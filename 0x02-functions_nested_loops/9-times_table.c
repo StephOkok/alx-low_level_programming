@@ -6,7 +6,6 @@
 void times_table(void)
 {
 	int number, multiply, product;
-	
 	for (number = 0; number <= 9; number++)
 	{
 		_putchar('0');
@@ -23,5 +22,4 @@ void times_table(void)
 		}
 		_putchar ('\n');
 	}
-	
 }
