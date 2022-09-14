@@ -22,7 +22,7 @@ void print_times_table(int n)
 			if (result <= 99)
 				putchar(' ');
 			if (result <= 9)
-				putchar(' ');
+				_putchar(' ');
 			if (result >= 100)
 			{
 				_putchar((result / 100) + '0');
