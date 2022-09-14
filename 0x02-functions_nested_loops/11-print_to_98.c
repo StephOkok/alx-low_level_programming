@@ -5,6 +5,7 @@
  * in order separated by comma followed by space.
  * @n: the number counting at
  */
+
 void print_to_98(int n)
 {
 	if (n >= 98)
@@ -14,7 +15,7 @@ void print_to_98(int n)
 		printf("%d\n", n);
 	}
 
-	else if (n <= 98)
+	else
 	{
 		while (n < 98)
 			printf("%d, ", n++);
