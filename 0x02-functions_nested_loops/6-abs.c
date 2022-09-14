@@ -1,17 +1,19 @@
 #include "main.h"
 /**
- * _abs - function that prints absolute integer
- * @c: print absolute vatue
- * Return: 0 always when successful
+ * _abs - function that computes the absolute value of int
+ * @x: integer used for the argument
+ * Return: always 0 when successful
  */
 
-int _abs(int)
+int _abs(int x)
 {
-	int c;
-	if (c > 0 || c -- 0)
-	{
-		return (c);
-	}
-	else
-		return (c * -1);
+    if (x > 0 || x == 0)
+    {
+        putchar(x);
+        return (x);
+    }
+    else
+    putchar(x);
+    return (x * -1);
+    
 }
