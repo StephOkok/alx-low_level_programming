@@ -3,7 +3,7 @@
 
 /**
  * print_line - function to print a line
- @n: character that forms the line
+ * @n: character that forms the line
  * Return: 0
  */
 
