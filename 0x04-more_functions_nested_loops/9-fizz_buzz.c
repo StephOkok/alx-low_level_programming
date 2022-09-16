@@ -1,32 +1,39 @@
-#include <stdio.h>
+#include<stdio.h>
 #include "main.h"
-
 /**
-*main - program that prints num, or fizz or buzz or fizzBuzz
-*Return: return 0 success
-*/
- int main(void)
-{
-	int d = 1;
+ * main = program that prints numbers from 1-100, or fizz
+ * if divisible by 3 or buzz if divisble 
+ * by 5 or fizzbuzz for both
+ * Return: return 0 for success
+ */
 
-	while (d++ < 100)
+int main(void)
+{
+	int d;
+
+	for (d = 1; d <= 100; d++)
 	{
-		if ((d % 3 == 0) && (d % 5 == 0))
+		if (d % 3 == 0 && d % 5 != 0)
 		{
-			printf("FizzBuzz ");
+			printf(" Fizz");
 		}
-		else if ((d % 3) == 0)
+		else if (d % 5 == 0 && d % 3 != 0)
 		{
-			printf("Fizz ");
+			printf(" Buzz");
 		}
-		else if ((d % 5) == 0)
+		else if (d % 3 == 0 && d % 5 == 0)
 		{
-			if (d != 100)
-			{
-				printf("Buzz ");
-			}
-			else
-				printf("Buzz")
+			printf(" FizzBuzz");
+		}
+		else if (d == 1)
+		{
+			printf("%d", d);
+		}
+		else
+		{
+			printf(" %d", d);
 		}
 	}
+	printf("\n");
+	return(0);
 }
