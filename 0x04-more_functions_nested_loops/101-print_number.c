@@ -8,20 +8,20 @@
 
 void print_number(int n)
 {
-	char x, d;
+	char ld, cr;
 	int r;
-	int t = 0;
+	int ct = 0;
 
 	if (n < 0)
 	{
 		_putchar ('-');
-		x = (char)('0' - (n % 10));
+		ld = (char)('0' - (n % 10));
 		n = n / -10;
 	}
 
 		else
 		{
-			x = (char)((n % 10) + '0');
+			ld = (char)((n % 10) + '0');
 		n = n / 10;
 	}
 
@@ -30,20 +30,20 @@ void print_number(int n)
 	{
 		r = r * 10 + (n % 10);
 		n = n / 10;
-		t++;
+		ct++;
 	}
 
 	while (r > 0)
 	{
-		d = (char)((r % 10) + '0');
-		_putchar(d);
+		cr = (char)((r % 10) + '0');
+		_putchar(cr);
 		r = r / 10;
-		t--;
+		ct--;
 	}
-	while (t != 0)
+	while (ct != 0)
 	{
 		_putchar('0');
-			t--;
+			ct--;
 	}
-	_putchar(x);
+	_putchar(ld);
 }
