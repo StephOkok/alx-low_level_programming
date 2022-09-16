@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main = program that prints numbers from 1-100, or fizz
- * if divisible by 3 or buzz if divisble 
+ * if divisible by 3 or buzz if divisble
  * by 5 or fizzbuzz for both
  * Return: return 0 for success
  */
@@ -35,5 +35,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
