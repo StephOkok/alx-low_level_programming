@@ -8,8 +8,8 @@
 
 void print_number(int n)
 {
-	char x, y;
-	int q;
+	char x, d;
+	int r;
 	int t = 0;
 
 	if (n < 0)
@@ -25,19 +25,19 @@ void print_number(int n)
 		n = n / 10;
 	}
 
-	q = 0;
+	r = 0;
 	while (n > 0)
 	{
-		q = q * 10 + (n % 10);
+		r = r * 10 + (n % 10);
 		n = n / 10;
 		t++;
 	}
 
-	while (q > 0)
+	while (r > 0)
 	{
-		y = (char)((q % 10) + '0');
-		_putchar(cr);
-		q = q / 10;
+		d = (char)((r % 10) + '0');
+		_putchar(d);
+		r = r / 10;
 		t--;
 	}
 	while (t != 0)
