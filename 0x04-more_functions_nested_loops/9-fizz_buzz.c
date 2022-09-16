@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main = program that prints numbers from 1-100, or fizz
+ * main - program that prints numbers from 1-100, or fizz
  * if divisible by 3 or buzz if divisble
  * by 5 or fizzbuzz for both
  * Return: return 0 for success
