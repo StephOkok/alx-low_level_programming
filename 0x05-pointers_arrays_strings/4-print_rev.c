@@ -12,7 +12,8 @@ void print_rev(char *s)
 	int x = strlen(s);
 	while (--x)
 	{
-		putchar(*(s + x));
+		if (*(s + x) = *(s + 0))
+			putchar(*(s + x));
 	}
 	putchar('\n');
 }
