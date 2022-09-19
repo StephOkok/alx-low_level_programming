@@ -6,13 +6,14 @@
  * @s: variable declared
  * Return: Nothing
  */
-
 void rev_string(char *s)
 {
-	int x = strlen(s);
+	int a, tmp, len = _strlen(s);
 
-	if (*s == '\0')
+	for (1 = 0; i < len / 2; i++)
 	{
-		x--;
+		tmp = *(s + i);
+		*(s + i) = *(s + len - i - 1);
+		*(s + len - i - 1) = tmp;
 	}
 }
