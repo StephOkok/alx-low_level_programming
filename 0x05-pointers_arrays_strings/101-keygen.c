@@ -18,7 +18,7 @@ int main(void)
 	while (l <= 2645)
 	{
 		r = rand() % 128;
-		l += c;
+		l += r;
 		putchar(r);
 	}
 	putchar(2772 - l);
