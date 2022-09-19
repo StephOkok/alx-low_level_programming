@@ -9,9 +9,8 @@
 
 void rev_string(char *s)
 {
-	if (*s != '\0')
+	while (*s == '\0' && *s != 0)
 	{
-		rev_string(s + 1);
+		s--;
 	}
-	putchar('\n');
 }
