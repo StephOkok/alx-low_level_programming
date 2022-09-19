@@ -11,7 +11,7 @@ void rev_string(char *s)
 {
 	if (*s == '\0')
 	{
-		s--;
+		rev_string(s - 1);
 	}
 	putchar('\n');
 }
