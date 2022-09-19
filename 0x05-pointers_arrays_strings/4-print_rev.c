@@ -10,10 +10,9 @@
 void print_rev(char *s)
 {
 	int x = strlen(s);
-	while (--x)
+	while (X--)
 	{
-		if (*(s + x) = *(s + 0))
-			putchar(*(s + x));
+		putchar(*(s + x));
 	}
 	putchar('\n');
 }
