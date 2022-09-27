@@ -8,19 +8,14 @@
 
 char *_strchr(char *s, char c)
 {
-	int len = strlen(s);
-	int i = 0;
+	int i;
 
-	while (len < '\0')
+	for (i = 0; *(s + i) ; i++)
 	{
-		for (i = 0; i < len - 1 && s[i] == c; i++)
-		{
-			if (s[i] != c)
-			{
-				putchar('0');
-			}
-		}
-		len++;
+		if (*(s + i) == c)
+			return (s + i);
 	}
-	return (s);
+	if (*(s + i) == c)
+		return (s + i);
+	return (0);
 }
