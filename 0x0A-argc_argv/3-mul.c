@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int a = atoi(argv[1]);
 	int b = atoi(argv[2]);
 
-	if (argc != 0)
+	if (argc > 0)
 		i = a * b;
 	printf("%d\n", i);
 	return (0);
