@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int i = 0;
 	int a = atoi(argv[1]);
 	int b = atoi(argv[2]);
 
