@@ -30,8 +30,6 @@ int pal(char *s, int a, int z)
 	if (s[a] != s[z])
 		return (0);
 	if (a < z + 1)
-		return (1);
-	if (s[a] - 1 != s[z] + 1)
-		return (0);
-	return (pal(s, a + 1, z - 1));
+		return (pal(s, a + 1, z - 1));
+	return (0);
 }
