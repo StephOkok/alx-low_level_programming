@@ -13,6 +13,16 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL && s2 == NULL)
 		return (NULL);
+	if (s1 == NULL && s2 != NULL)
+	{
+		return (s2);
+		break;
+	}
+	if (s2 == NULL && s1 != NULL)
+	{
+		return (s1);
+		break;
+	}
 	s3 = malloc(sizeof(char) * ((strlen(s1) + strlen(s2)) + 1));
 
 	if (s3 == NULL)
@@ -31,7 +41,5 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 	s3[j] = '\0';
-	if (s1 == NULL || s2 == NULL)
-		return (s3);
 	return (s3);
 }
