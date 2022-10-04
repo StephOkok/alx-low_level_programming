@@ -7,23 +7,23 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b, sum;
+	int a = 0, i, j;
 
-	if (argc == 1)
+	for (i = 1; i < argc; i++)
 	{
-		printf("0\n");
+		for (j = 0; argv[i][j]; j++)
+		{
+			if (isdigit(argv[i][j]) == 0)
+			{
+				puts("Error");
+				return (1);
+			}
+		}
 	}
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-
-	if (a == (a * -1) || b == (b * -1))
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		return (1);
+		a += atoi(argv[i]);
 	}
-	sum = a + b;
-	printf("%d\n", sum);
-
+	printf("%d\n", a);
 	return (0);
 }
-	
