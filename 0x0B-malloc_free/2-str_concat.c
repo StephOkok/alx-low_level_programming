@@ -17,29 +17,26 @@ char *str_concat(char *s1, char *s2)
 
 	if (s3 == NULL)
 		return (NULL);
-	while (s1[i] != '\0')
+	if (s1[i] == NULL || s2[i] == NULL)
 	{
-		s3[j] = s1[i];
-		i++;
-		j++;
-		if (s1[i] == NULL)
-		{
-			return (s3);
-			break;
-		}
+		return (s3);
 	}
-	i = 0;
-	while (s2[i] != '\0')
+	else
 	{
-		s3[j] = s2[i];
-		i++;
-		j++;
-		if (s2[i] == NULL)
+		while (s1[i] != '\0')
 		{
-			return (s3);
-			break;
+			s3[j] = s1[i];
+			i++;
+			j++;
 		}
+		i = 0;
+		while (s2[i] != '\0')
+		{
+			s3[j] = s2[i];
+			i++;
+			j++;
+		}
+		s3[j] = '\0';
 	}
-	s3[j] = '\0';
 	return (s3);
 }
