@@ -13,7 +13,12 @@ int main(void)
 		num3 = num1 + num2;
 		num1 = num2;
 		num2 = num3;
-		printf("%d, ", num1);
+		if (i == 97)
+		{
+			printf("\n");
+		}
+		else
+			printf("%u, ", num1);
 	}
 	return (0);
 }
