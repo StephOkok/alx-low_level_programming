@@ -19,11 +19,10 @@ int main(void)
 	}
 	num1x = num1 / 10000000000;
 	num1y = num1 % 10000000000;
-	
+
 	num2x = num2 / 10000000000;
 	num2y = num2 % 10000000000;
-	
-	for(i = 0; i < 98; i++)
+	for(i = 92; i < 98; i++)
 	{
 		num3x = num1x + num2x;
 		num3y = num1y + num2y;
