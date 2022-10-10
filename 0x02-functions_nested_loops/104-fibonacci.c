@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	unsigned long num1 = 1, num2 = 1, num3 = 0;
+	unsigned long num1 = 0, num2 = 1, num3 = 0;
 	int i;
 
 	for (i = 0; i < 98; i++)
@@ -20,7 +20,7 @@ int main(void)
 			printf("\n");
 		}
 		else
-			printf(", ", num1);
+			printf(", ");
 	}
 	return (0);
 }
