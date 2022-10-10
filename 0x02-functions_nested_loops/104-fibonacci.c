@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	unsigned int num1 = 1, num2 = 1, num3 = 0, i;
+	long unsigned int num1 = 1, num2 = 1, num3 = 0, i;
 
 	for (i = 0; i < 98; i++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 			printf("\n");
 		}
 		else
-			printf("%u, ", num1);
+			printf("%lu, ", num1);
 	}
 	return (0);
 }
