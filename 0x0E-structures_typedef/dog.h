@@ -4,10 +4,11 @@
 * @name: name of the dog
 * @age: age of the dog
 * @owner: owner of dog
-* Return: 0 success 
+* Return: 0 success
 */
 
-struct dog{
+struct dog
+{
 char *name;
 float age;
 char *owner;
