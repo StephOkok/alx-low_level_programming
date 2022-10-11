@@ -1,4 +1,5 @@
-#include "main.h"
+#ifndef DOG_H_FILE
+#define DOG_H_FILE
 /**
 * struct dog - new structure
 * @name: name of the dog
@@ -11,4 +12,6 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-};
+} dogg;
+
+
