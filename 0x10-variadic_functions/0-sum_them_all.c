@@ -9,6 +9,7 @@
 {
 	int sum = 0;
 	unsigned int i;
+
 	va_list ap;
 	va_start(ap, n);
 
