@@ -1,10 +1,10 @@
-#Singly Linked Lists#
+# Singly Linked Lists #
 
 A linked list is a sequence of data structures that are joined together using links
 
 Each list is connected to the other mostly by the memory
 
-##ALX project##
+## ALX project ##
 
 *Write a function that prints all the elements of a list_t list*
 
