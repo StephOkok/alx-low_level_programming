@@ -7,7 +7,7 @@
 size_t print_list(const list_t *h)
 {
 	int i = 0, temp = 1;
-	char nul[] = "(nil)";
+	char nul[] = "[0] (nil)";
 
 	if (!h)
 	{
@@ -25,7 +25,9 @@ size_t print_list(const list_t *h)
 	else
 		printf("%s\n", h->str);
 	if (h->next)
+	{
 		temp += print_list(h->next);
+	}
 	return (temp);
 }
 
