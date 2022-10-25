@@ -4,17 +4,35 @@
 * @h: pointer to the list of elements
 * Return: the number of nodes
 */
-
 size_t print_list(const list_t *h)
 {
-	const list_t *temp;
-	unsigned int i;
+	int i = 0, temp = 1;
+	char nul[] = "(nil)";
 
-	temp = h;
-	for (i = 0; temp; i++)
-	{
-		printf("[%u] %s\n", temp->len, temp->str);
-		temp = temp->next;
-	}
+	if (!h)
+		return (0);
+	if (h->str)
+		i = _strlen(h->str);
+		printf("[%d] ", i);
+	if (!h->str)
+		printf("%s\n", nul);
+	else
+		printf("%s\n", h->str);
+	if (h->next)
+		temp += print_list(h->next);
+	return (temp);
+}
+
+/**
+* _strlen - finds string length
+* @str: string
+* Return: length of string
+*/
+int _strlen(char *str)
+{
+	int i;
+
+	for (i = 0; *(str + i);)
+		i++;
 	return (i);
 }
