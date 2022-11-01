@@ -49,10 +49,8 @@ Bitwise operations is where the operators AND, OR, NOT performs on strings of ei
 # ALX Projects #
 ## Requirements ##
 ### General ###
-Allowed editors: vi, vim, emacs
-
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
 - A README.md file, at the root of the folder of the project is mandatory
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
@@ -67,16 +65,16 @@ All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options
 - All your header files should be include guarded
 
 ## Tasks ##
-Task 0:  Write a function that converts a binary number to an unsigned int
-Task 1: Write a function that prints the binary representation of a number.
-Task 2: Write a function that returns the value of a bit at a given index.
-Task 3: Write a function that sets the value of a bit to 1 at a given index.
-Task 4: Write a function that sets the value of a bit to 0 at a given index.
-Task 5: Write a function that returns the number of bits you would need to flip to get from one number to another.
+- Task 0:  Write a function that converts a binary number to an unsigned int
+- Task 1: Write a function that prints the binary representation of a number.
+- Task 2: Write a function that returns the value of a bit at a given index.
+- Task 3: Write a function that sets the value of a bit to 1 at a given index.
+- Task 4: Write a function that sets the value of a bit to 0 at a given index.
+- Task 5: Write a function that returns the number of bits you would need to flip to get from one number to another.
 
 ## Advanced Tasks ##
-Task 100: Write a function that checks the endianness.
-Task 101: Find the password for this program.
+- Task 100: Write a function that checks the endianness.
+- Task 101: Find the password for this program.
 
 
 
