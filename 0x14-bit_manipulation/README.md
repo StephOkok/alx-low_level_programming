@@ -23,12 +23,12 @@ Bitwise operations is where the operators AND, OR, NOT performs on strings of ei
 
 ### Biteise OR ###
 
-|  a  |  b  | a|b |
-|:--- |:---:| ---:|
-|  0  |  0  |  0  |
-|  0  |  1  |  1  |
-|  1  |  0  |  1  |
-|  1  |  1  |  1  |
+|  a  |  b  | a OR b |
+|:--- |:---:| ------:|
+|  0  |  0  |  0     |
+|  0  |  1  |  1     |
+|  1  |  0  |  1     |
+|  1  |  1  |  1     |
 
 ### Bitwise XOR ###
 
