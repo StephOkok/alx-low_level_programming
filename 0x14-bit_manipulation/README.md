@@ -14,12 +14,12 @@ Bitwise operations is where the operators AND, OR, NOT performs on strings of ei
 
 ### Bitwise AND ###
 
-a   b   a&b
-
-0   0   0
-0   1   0
-1   0   0
-1   1   1
+|  a  |  b  | a&b |
+|:--- |:---:| ---:|
+|  0  |  0  |  0  | 
+|  0  |  1  |  0  |
+|  1  |  0  |  0  |
+|  1  |  1  |  1  |
 
 ### Biteise OR ###
 
