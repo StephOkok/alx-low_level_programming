@@ -7,7 +7,7 @@ Bitwise operations is where the operators AND, OR, NOT performs on strings of ei
 1. & - bitwise AND
 2. | - bitwise inclusive OR
 3. ^ - bitwise XOR, exclusive OR
-4. >>  right shift
+4.  >>  right shift
 5. << - lesft shift
 6. ~ - bitwise NOT
 
