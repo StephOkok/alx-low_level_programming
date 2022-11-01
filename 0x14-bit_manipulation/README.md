@@ -21,7 +21,7 @@ Bitwise operations is where the operators AND, OR, NOT performs on strings of ei
 |  1  |  0  |  0  |
 |  1  |  1  |  1  |
 
-### Biteise OR ###
+### Bitwise OR ###
 
 |  a  |  b  | a OR b |
 |:--- |:---:| ------:|
