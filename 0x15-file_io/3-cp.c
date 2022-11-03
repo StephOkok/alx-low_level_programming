@@ -9,7 +9,7 @@ void check_IO_stat(int stat, int fd, char *filename, char mode);
 */
 int main(int argc, char *argv[])
 {
-	int src,dest, r = 1024, w, close_src, close_dest;
+	int src, dest, r = 1024, w, close_src, close_dest;
 	unsigned int mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 	char buffer[1024];
 
