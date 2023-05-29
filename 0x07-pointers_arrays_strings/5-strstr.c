@@ -1,11 +1,12 @@
 #include "main.h"
-/**
- * _strstr - a function that locates a substring
- * @haystack: main string to be scanned
- * @needle: substring to be search in the haystack string
- * Return: 0 (succe)
- */
 
+/**
+ * _strstr - locates a substring
+ * @haystack: string in which to check for needle
+ * @needle: substring to find in haystack
+ *
+ * Return: pointer to beginning of needle in haystack or NULL if no match
+ */
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i = 0, j = 0;
