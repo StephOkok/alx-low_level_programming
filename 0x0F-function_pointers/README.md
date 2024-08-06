@@ -1,2 +1,2 @@
-Variadic Functions
-Pointers to Funtion
+# Variadic Functions #
+# Pointers to Funtion #
