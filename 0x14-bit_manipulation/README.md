@@ -77,5 +77,6 @@ Bitwise operations is where the operators AND, OR, NOT performs on strings of ei
 - Task 101: Find the password for this program.
 
 
-
+## Author ##
+Stephen Otieno Okok - Stephokok@github.com
 
